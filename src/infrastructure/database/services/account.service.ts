@@ -5,7 +5,7 @@ import {
   AccountVendorId,
   CustomerId,
   SiteName,
-} from 'src/application/account/domain';
+} from '@application/account/domain';
 
 @Injectable()
 class AccountServiceImplementation implements AccountService {

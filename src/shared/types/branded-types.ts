@@ -14,7 +14,3 @@ export const tagged = <T extends Tagged<unknown, unknown>>(
 ): T => {
   return value as T;
 };
-
-export interface UseCase<T, R> {
-  execute(input: T): Promise<R>;
-}

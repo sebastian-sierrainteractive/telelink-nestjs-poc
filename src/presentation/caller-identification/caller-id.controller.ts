@@ -1,18 +1,18 @@
 import { Body, Controller, Post } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
 import { CreateCallerIdDto } from './dtos/create-caller-id.dto';
-import { CreateCallerIdUseCase } from 'src/application/caller-id/use-cases';
-import { tagged } from 'src/shared';
+import { CreateCallerIdUseCase } from '@application/caller-id/use-cases';
+import { tagged } from '@shared/types';
 import {
   AccountVendorId,
   CustomerId,
   SiteName,
-} from 'src/application/account/domain';
+} from '@application/account/domain';
 import {
   CallerIdentificationDisplayName,
   CustomerProfileVendorId,
   EmailAddress,
-} from 'src/application/caller-id/domain';
+} from '@application/caller-id/domain';
 
 @ApiTags('Caller Id')
 @Controller('/caller-id')

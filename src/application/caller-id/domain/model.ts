@@ -1,4 +1,4 @@
-import { Tagged } from '../../../shared';
+import { Tagged } from '@shared/types';
 
 export type AccountId = Tagged<'AccountId', string>;
 export type AccountVendorId = Tagged<'AccountVendorId', string>;

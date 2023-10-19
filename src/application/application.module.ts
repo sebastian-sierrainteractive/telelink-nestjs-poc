@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { DatabaseModule } from '../infrastructure';
+import { DatabaseModule } from '@infrastructure/database';
 import { useCases as accountUseCases } from './account';
 import { useCases as ciUseCases } from './caller-id';
 

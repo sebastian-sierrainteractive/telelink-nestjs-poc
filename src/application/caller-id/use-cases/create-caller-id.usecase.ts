@@ -1,5 +1,6 @@
 import { Inject, Injectable } from '@nestjs/common';
-import { UseCase } from 'src/shared';
+import { UseCase } from '@shared/types';
+import { VendorName } from '@application/account/domain';
 import {
   AccountId,
   AccountVendorId,
@@ -12,7 +13,6 @@ import {
   EmailAddress,
   SiteName,
 } from '../domain';
-import { VendorName } from 'src/application/account/domain';
 
 export type InputUseCase = Readonly<{
   customerId: CustomerId;

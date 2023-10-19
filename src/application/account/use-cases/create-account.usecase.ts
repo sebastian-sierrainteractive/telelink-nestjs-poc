@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { UseCase } from 'src/shared';
+import { UseCase } from '@shared/types';
 import {
   Account,
   AccountVendorId,

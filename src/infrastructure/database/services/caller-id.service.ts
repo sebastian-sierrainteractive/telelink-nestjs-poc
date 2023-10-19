@@ -6,7 +6,7 @@ import {
   CallerIdentification,
   CallerIdentificationId,
   CallerIdService as CallerIdServiceDomain,
-} from 'src/application/caller-id/domain';
+} from '@application/caller-id/domain';
 import { CallerId } from '../models/caller-id.model';
 
 @Injectable()
