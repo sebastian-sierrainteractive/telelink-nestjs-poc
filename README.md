@@ -4,6 +4,12 @@
 $ npm install
 ```
 
+## Running services
+
+```bash
+$ docker-compose up
+```
+
 ## Running the app
 
 ```bash
